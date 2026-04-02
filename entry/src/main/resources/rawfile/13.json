@@ -1,0 +1,96 @@
+{
+  "grid": "square",
+  "matrix": [
+    [
+      {
+        "type": "empty"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "start",
+        "color": "#FF0000"
+      },
+      {
+        "type": "empty"
+      }
+    ],
+    [
+      {
+        "type": "empty"
+      },
+      {
+        "type": "double"
+      },
+      {
+        "type": "color",
+        "color": "#00FF00"
+      },
+      {
+        "type": "color",
+        "color": "#00FF00"
+      },
+      {
+        "type": "empty"
+      }
+    ],
+    [
+      {
+        "type": "empty"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "empty"
+      }
+    ],
+    [
+      {
+        "type": "empty"
+      },
+      {
+        "type": "color",
+        "color": "#FF0000"
+      },
+      {
+        "type": "color",
+        "color": "#FF0000"
+      },
+      {
+        "type": "double"
+      },
+      {
+        "type": "empty"
+      }
+    ],
+    [
+      {
+        "type": "empty"
+      },
+      {
+        "type": "start",
+        "color": "#00FF00"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "empty"
+      }
+    ]
+  ]
+}

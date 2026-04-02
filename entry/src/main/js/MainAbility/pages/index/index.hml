@@ -1,0 +1,47 @@
+<div class="container">
+    <stack style="width: 100%; height: 100%; background-color: #000000;">
+        <canvas ref='canvas' style="width: 100%; height: 90%; background-color: #000000;"
+                @touchstart="touchStart" @touchmove="touchMove" @touchend="touchEnd" @click="backtrack">
+        </canvas>
+
+        <div style="width: 100%; height: 90%; flex-direction: column; align-items: center; background-color: lightgray;"
+             if="{{ showButtons }}">
+            <text style="height: 10%; color: black;">#{{ levelIndex }}</text>
+
+            <div style="width: 100%; height: 30%; flex-direction: row; justify-content: space-around;
+                    align-items: flex-end;">
+                <div style="height: 100px; width: 100px; border-radius: 50px; background-color: firebrick;
+                        align-items: center; justify-content: center;" @click="toggleVibrate">
+                    <image src="{{ vibrate ? '/common/img/vibrate_on.png' : '/common/img/vibrate_off.png' }}"
+                           style="width: 30%; height: 30%;"></image>
+                </div>
+            </div>
+
+            <div style="width: 100%; height: 30%; flex-direction: row; justify-content: space-around;
+                    align-items: center;">
+                <div style="height: 100px; width: 100px; border-radius: 50px; background-color: firebrick;
+                        align-items: center; justify-content: center;" @click="goPrevious">
+                    <image src="/common/img/left.png" style="width: 30%; height: 30%;"></image>
+                </div>
+                <div style="height: 100px; width: 100px; border-radius: 50px; background-color: firebrick;
+                        align-items: center; justify-content: center;" @click="goNext">
+                    <image src="/common/img/right.png" style="width: 30%; height: 30%;"></image>
+                </div>
+            </div>
+
+            <div style="width: 100%; height: 30%; flex-direction: row; justify-content: space-around;
+                    align-items: flex-start;">
+                <div style="height: 100px; width: 100px; border-radius: 50px; background-color: firebrick;
+                        align-items: center; justify-content: center;" @click="restartLevel">
+                    <image src="/common/img/restart.png" style="width: 30%; height: 30%;"></image>
+                </div>
+            </div>
+        </div>
+
+        <div style="width: 100%; height: 10%; background-color: green; top: 90%; align-items: center;
+                justify-content: center;" @click="toggleButtons({{ ! showButtons }})">
+            <image src="/common/img/menu.png"
+                   style="height: 100%; width: 100%; object-fit: contain;"></image>
+        </div>
+    </stack>
+</div>

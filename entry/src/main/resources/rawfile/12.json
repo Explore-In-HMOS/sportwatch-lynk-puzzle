@@ -1,0 +1,98 @@
+{
+  "grid": "diamond",
+  "matrix": [
+    [
+      {
+        "type": "wall"
+      },
+      {
+        "type": "color",
+        "color": "#00FF00"
+      },
+      {
+        "type": "color",
+        "color": "#00FF00"
+      },
+      {
+        "type": "color",
+        "color": "#00FF00"
+      },
+      {
+        "type": "wall"
+      }
+    ],
+    [
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "start",
+        "color": "#FF0000"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      }
+    ],
+    [
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      }
+    ],
+    [
+      {
+        "type": "simple"
+      },
+      {
+        "type": "color",
+        "color": "#FF0000"
+      },
+      {
+        "type": "start",
+        "color": "#00FF00"
+      },
+      {
+        "type": "color",
+        "color": "#FF0000"
+      },
+      {
+        "type": "simple"
+      }
+    ],
+    [
+      {
+        "type": "wall"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "color",
+        "color": "#FF0000"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "wall"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "grid": "diamond",
+  "matrix": [
+    [
+      {
+        "type": "start",
+        "color": "#FF0000"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "start",
+        "color": "#00FF00"
+      }
+    ],
+    [
+      {
+        "type": "simple"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "simple"
+      }
+    ],
+    [
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "simple"
+      }
+    ],
+    [
+      {
+        "type": "wall"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "wall"
+      }
+    ],
+    [
+      {
+        "type": "wall"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "simple"
+      },
+      {
+        "type": "wall"
+      },
+      {
+        "type": "wall"
+      }
+    ]
+  ]
+}
